@@ -1,0 +1,22 @@
+{
+    "name": "user/vf_api_document_money_order",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\Services\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "okelala123",
+            "email": "daicmngia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "^8.0",
+        "namshi/cuzzle": "^2.0",
+        "monolog/monolog": "2.1"
+    }
+}
