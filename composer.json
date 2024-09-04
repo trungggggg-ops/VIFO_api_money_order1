@@ -1,5 +1,5 @@
 {
-    "name": "user/vf_api_document_money_order",
+    "name": "api_vifp/vf_api_document_money_order",
     "type": "library",
     "license": "MIT",
     "autoload": {
