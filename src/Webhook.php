@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Services;
 
 class Webhook
@@ -9,15 +8,12 @@ class Webhook
         $data = json_decode($data, true);
 
         if ($signature !== $requestSignature) {
-            echo "no";
+            return "no";
         } else {
-            echo "yes";
+            return "yes";
         }
     }
 }
 
-$test = new Webhook();
-$signature = 1;
-$requestSignature = 1;
 
-$test->handle($data, $signature, $requestSignature);
+

@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Services;
 
 
@@ -38,8 +37,9 @@ class VifoServiceFactory
             if ($username == 'NEWSPACE_admin_demo' && $password == 'newspace@vifo123') {
                 $this->headersLogin['Authorization'] =  'Bearer ' . $response['access_token'];
             }
+            return $response;
         } else {
-            echo "login false";
+            return null;
         }
     }
 
