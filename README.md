@@ -52,3 +52,4 @@ $otherRequest =  $test->OtherRequest();
 $otherRequest->checkOrderStatus($data);
 *$data: is a variable that contains the information needed to perform order status checks."# VIFO_api_document_money_order"  
 "# VIFO_api_document_money_order" 
+"# VIFO_api_money_order1" 
