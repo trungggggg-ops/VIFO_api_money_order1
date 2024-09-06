@@ -8,6 +8,7 @@ This PHP file uses services from `VifoServiceFactory` to perform banking, money 
 - **Composer**: Installed and configured to load dependencies.
 ## Installation
 You can install the library directly with composer:
+composer require api_vifo/vf_api_document_money_order dev-main
 ## Code Structure
 ### 1. Import Classes and Requirements Automatically
 ```php
