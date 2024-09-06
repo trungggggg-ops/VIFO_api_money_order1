@@ -55,3 +55,4 @@ $otherRequest->checkOrderStatus($data);
 "# VIFO_api_money_order1" 
 "# VIFO_api_money_order1" 
 "# VIFO_api_document_money_order" 
+"# VIFO_API_MONEY_ORDER1" 
